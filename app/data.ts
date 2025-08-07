@@ -29,21 +29,52 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'openxploit_',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'a containerized tool for scanning and reporting vulnerabilities in local or docker-based applications.',
+    link: 'https://github.com/manavnotop/toy-qwen3',
+    video: 'https://your-video-url.com/qwen3.mp4', // replace if you have a video
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    name: 'toy qwen3_',
+    description:
+      'a character-level language model inspired by qwen3, implemented and trained on shakespeare dataset.',
+    link: 'https://github.com/manavnotop/toy-qwen3',
+    video: 'https://your-video-url.com/qwen3.mp4', // replace if you have a video
     id: 'project2',
+  },
+  {
+    name: 'toy llama3.2_',
+    description:
+      'a lightweight character-level language model inspired after llama 3.2, trained on the shakespeare dataset.',
+    link: 'https://github.com/manavnotop/toy-llama3.2',
+    video: 'https://your-video-url.com/llama3.mp4',
+    id: 'project3',
+  },
+  {
+    name: 'toy qwen3 moe_',
+    description:
+      'an efficient character-level mixture-of-experts model inspired from qwen3-moe, trained on shakespeare.',
+    link: 'https://github.com/manavnotop/toy-qwen3-MoE',
+    video: 'https://your-video-url.com/moe.mp4',
+    id: 'project4',
+  },
+  {
+    name: 'yodalm_',
+    description:
+      'a 4-bit quantized and instruction-tuned qwen3 model fine-tuned on custom data, that speaks yoda.',
+    link: 'https://github.com/manavnotop/LLM-Sprint/tree/main/yodalm',
+    video: 'https://your-video-url.com/yodalm.mp4',
+    id: 'project5',
+  },
+  {
+    name: 'simple rag_',
+    description:
+      'A RAG application built from the official langchain tutorial.',
+    link: 'https://github.com/manavnotop/first-RAG',
+    video: 'https://your-video-url.com/rag.mp4',
+    id: 'project6',
   },
 ]
 
@@ -106,20 +137,16 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/manavnotop',
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    label: 'X',
+    link: 'https://x.com/manavvnotop',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.linkedin.com/in/manav-agarwal-746296282/',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'manuagarwal1443@gmail.com'

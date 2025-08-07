@@ -7,7 +7,7 @@ export function Header() {
     <header className="mb-8 flex items-center justify-between">
       <div>
         <Link href="/" className="font-medium text-black dark:text-white">
-          manav agarwal
+          manav agarwal_
         </Link>
         <TextEffect
           as="p"
@@ -16,7 +16,7 @@ export function Header() {
           className="text-zinc-600 dark:text-zinc-500"
           delay={0.5}
         >
-          applied LLM mechanic
+          applied LLM mechanic_
         </TextEffect>
       </div>
     </header>
