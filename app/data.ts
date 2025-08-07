@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     name: 'openxploit_',
     description:
       'a containerized tool for scanning and reporting vulnerabilities in local or docker-based applications.',
-    link: 'https://github.com/manavnotop/toy-qwen3',
+    link: 'https://openxploit.xyz',
     video: 'https://your-video-url.com/qwen3.mp4', // replace if you have a video
     id: 'project1',
   },
@@ -80,28 +80,20 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
+    company: 'Athena Automation',
+    title: 'Full Stack Intern',
+    start: 'April, 2025',
+    end: 'May 2025',
     link: 'https://ibelick.com',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
+    company: 'Bharat Forge Limited',
+    title: 'Machine Learning Intern',
+    start: 'Dec, 2023',
+    end: 'Feb, 2024',
     link: 'https://ibelick.com',
     id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
   },
 ]
 

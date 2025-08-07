@@ -102,7 +102,7 @@ export default function Personal() {
         <h3 className="mb-5 text-lg font-medium">selected projects</h3>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {PROJECTS.map((project) => (
-            <div key={project.name} className="space-y-2 rounded-xl bg-white/90 dark:bg-zinc-800/60 p-4 shadow-sm border border-zinc-200 dark:border-zinc-800 transition-transform hover:shadow-md hover:scale-[1.01]">
+            <div key={project.name} className="space-y-1 rounded-lg bg-white/90 dark:bg-zinc-950/60 p-4 border-zinc-200 dark:border-zinc-800 transition-transform hover:shadow-md hover:scale-[1.01]">
               <div className="px-1">
                 <a
                   className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
@@ -159,7 +159,7 @@ export default function Personal() {
         </div>
       </motion.section>
 
-      <motion.section
+      {/* <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -193,7 +193,7 @@ export default function Personal() {
             ))}
           </AnimatedBackground>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       <motion.section
         variants={VARIANTS_SECTION}
