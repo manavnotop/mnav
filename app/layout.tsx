@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono, Manrope } from 'next/font/google'
 import './globals.css'
 import { Header } from './header'
 import { Footer } from './footer'
@@ -33,6 +33,13 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 })
 
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  weight: ['400', '500', '600','700'], // You can adjust weights as needed
+  display: 'swap', // Optional, helps improve performance
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -41,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}
+        className={`${manrope.className} bg-white tracking-tight antialiased dark:bg-zinc-950`}
       >
         <ThemeProvider
           enableSystem={true}
