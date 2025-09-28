@@ -84,7 +84,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Full Stack Intern',
     start: 'April, 2025',
     end: 'May 2025',
-    link: 'https://ibelick.com',
+    link: '#',
     id: 'work1',
   },
   {
@@ -92,7 +92,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Machine Learning Intern',
     start: 'Dec, 2023',
     end: 'Feb, 2024',
-    link: 'https://ibelick.com',
+    link: '#',
     id: 'work2',
   },
 ]
