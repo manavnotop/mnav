@@ -28,6 +28,32 @@ type SocialLink = {
 }
 
 export const PROJECTS: Project[] = [
+    {
+        name: 'lamport_',
+        description:
+            'CLI coding agent for solana programs. writes anchor, builds, debugs-fully autonomous.',
+        link: 'https://github.com/manavnotop/lamport ',
+        video: 'https://your-video-url.com/lamport.mp4 ',
+        id: 'project9',
+    },
+    {
+        name: 'mmry_',
+        description:
+            'mini memory layer for AI apps and agents. gives LLMs persistent, queryable long-term memory, self-hosted.',
+        link: 'https://github.com/manavnotop',
+        video: 'https://your-video-url.com/mmry.mp4 ',
+        id: 'project7',
+    },
+    
+        {
+        name: 'poker_',
+        description:
+            'texas-hold-em arena where LLMs bluff, bet and banter in character.',
+        link: 'https://github.com/manavnotop/poker', 
+        video: 'https://your-video-url.com/poker.mp4 ',
+        id: 'project8',
+        },
+        
   {
     name: 'openxploit_',
     description:
@@ -67,15 +93,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/manavnotop/LLM-Sprint/tree/main/yodalm',
     video: 'https://your-video-url.com/yodalm.mp4',
     id: 'project5',
-  },
-  {
-    name: 'simple rag_',
-    description:
-      'A RAG application built from the official langchain tutorial.',
-    link: 'https://github.com/manavnotop/first-RAG',
-    video: 'https://your-video-url.com/rag.mp4',
-    id: 'project6',
-  },
+  }
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
