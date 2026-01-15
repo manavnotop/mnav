@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
         name: 'mmry_',
         description:
             'mini memory layer for AI apps and agents. gives LLMs persistent, queryable long-term memory, self-hosted.',
-        link: 'https://github.com/manavnotop',
+        link: 'https://github.com/manavnotop/mmry',
         video: 'https://your-video-url.com/mmry.mp4 ',
         id: 'project7',
     },
